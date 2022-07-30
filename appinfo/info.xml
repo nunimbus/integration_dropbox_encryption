@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>integration_dropbox_encryption</id>
+	<name>Dropbox integration encryption</name>
+	<summary>Help inspect Nextcloud code</summary>
+	<description>Help inspect Nextcloud code</description>
+	<version>1.0.0</version>
+	<licence>agpl</licence>
+	<author>Andrew Summers</author>
+	<namespace>DropboxEncryption</namespace>
+
+	<category>tools</category>
+
+	<dependencies>
+		<nextcloud min-version="20" max-version="30" />
+	</dependencies>
+	<settings>
+		<personal>OCA\DropboxEncryption\Settings\Personal</personal>
+	</settings>
+</info>
